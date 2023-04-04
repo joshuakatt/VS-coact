@@ -1,0 +1,19 @@
+{
+    "name": "VS-coact",
+    "displayName": "VS coact",
+    "description": "An awesome extension for VSCode",
+    "version": "1.0.0",
+    "publisher": "my-publisher",
+    "engines": {
+      "vscode": "^1.0.0"
+    },
+    "main": "./VS-coact.js",
+    "dependencies": {
+      "firebase": "^9.6.2"
+    },
+    "activationEvents": [
+      "onCommand:vscoact.shareCode",
+      "onCommand:vscoact.joinCode"
+    ]
+  }
+  
